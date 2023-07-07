@@ -81,7 +81,7 @@ Jika belum mempunyai composer anda bisa download di sini [Get Composer](https://
 
 ### Langkah 2: Create ERD
 ini adalah contoh ERD yang kami buat menggunkan aplikasi `whimsical`<p>
-[!gambarERD](asset/ERD.png)
+![gambarERD](asset/ERD.png)
 
 1. Tabel cars one to many ke table transactions car_id
 2. Table customer one to many ke tablet transaction customer_id
