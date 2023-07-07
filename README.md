@@ -59,8 +59,8 @@ User/Password Admin Page:<p>
 - user: `admin2100`
 - password: `Ganteng12345`
 > Untuk menggunakan aplikasi ini ketik `git clone` paste code HTTPS.
-> `composer install` lalu `composer update` untuk menginstall dan memperbaharui versi vendor<p>
-> `env copy` ubah nama ke `dot env` atau `.env` dan atur database secara manual
+> `composer install` lalu `composer update` untuk menginstall dan memperbaharui versi vendor
+> `env copy` ubah nama ke `dot env` atau `.env` dan atur database secara manual<p>
 
 ### Video Penjelasan Aplikasi
 [![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/41PfBAvXD3U/maxresdefault.jpg)](https://www.youtube.com/watch?v=41PfBAvXD3U)
