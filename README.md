@@ -169,6 +169,9 @@ Disini model yang kita buat ada `CarsController.php`, `CustomerController.php`, 
 * Buat folder `app/Views/cars` dan buat file ini:<p>
 
   + <b>create.php</b>
+  ```php
+
+  ```
 
 <br>
 
@@ -302,6 +305,38 @@ buka `app/Config/Routes.php` file dan tambahkan routes:<p>
 <br>
 
 ### Membuat Menu LOGIN
+Untuk membuat menu Login Kita menggunkan library dari [myth-auth](https://github.com/lonnieezell/myth-auth) <p>
+
+* Langkah-Langkah
+  + copy 
+  ```php
+     composer require myth/auth
+  ```
+  + Configuration
+    1. Edit <b>app/Config/Validation.php</b><p>
+    `use Myth\Auth\Authentication\Passwords\ValidationRules;`<p>
+    2. untuk bagian ruleset<p>
+    `ValidationRules::class,`<p>
+    3. Setelah itu migrasikan database di terminal<p>
+    ```php 
+    php spark migrate -all
+    ```
+  + Restricting by Route
+    kemudian edit dibagian `application/Config/Filters.php` dibagian `aliases`<p>
+    ```php
+      'login'      => \Myth\Auth\Filters\LoginFilter::class,
+      'role'       => \Myth\Auth\Filters\RoleFilter::class,
+      'permission' => \Myth\Auth\Filters\PermissionFilter::class,
+    ```
+    kita disini menggunkan fitur filters untuk melock login bagian admin saja
+    ```php
+      public filters = [
+      'login' => ['before' => ['account/*']],
+      ];
+    ```
+  
+
+
 
 <br>
 
