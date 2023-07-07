@@ -342,5 +342,5 @@ Untuk membuat menu Login Kita menggunkan library dari [myth-auth](https://github
 
 
 #  Server DEMO
-Untuk mencoba aplikasi ini silahkan klik [DEMO](dinkadealer.site) ini<p>
+Untuk mencoba aplikasi ini silahkan klik [DEMO](https://dinkadealer.site/) ini<p>
 User/Password Admin Page kita user: `admin2100` , password: `Ganteng12345`
