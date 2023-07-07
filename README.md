@@ -60,6 +60,7 @@ User/Password Admin Page:<p>
 - password: `Ganteng12345`
 > Untuk menggunakan aplikasi ini ketik `git clone` paste code HTTPS.
 > `composer install` lalu `composer update` untuk menginstall dan memperbaharui versi vendor<p>
+> `env copy` ubah nama ke `dot env` atau `.env` dan atur database secara manual
 
 ### Video Penjelasan Aplikasi
 [![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/41PfBAvXD3U/maxresdefault.jpg)](https://www.youtube.com/watch?v=41PfBAvXD3U)
@@ -80,7 +81,7 @@ composer create-project codeigniter4/appstarter jual-mobil -vvv
 Jika belum mempunyai composer anda bisa download di sini [Get Composer](https://getcomposer.org/download/) </p><br>
 
 ### Langkah 2: Create ERD
-ini adalah contoh ERD yang kami buat menggunkan aplikasi `whimsical`<p>
+ini adalah contoh ERD yang kami buat menggunakan aplikasi `whimsical`<p>
 ![gambarERD](asset/ERD.png)
 
 1. Tabel cars one to many ke table transactions car_id
