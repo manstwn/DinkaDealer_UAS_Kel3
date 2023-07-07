@@ -59,7 +59,7 @@ User/Password Admin Page:<p>
 > `env copy` ubah nama ke `dot env` atau `.env` dan atur database secara manual<p>
 
 ### Video Penjelasan Aplikasi
-[![Final video of fixing issues in your code in VS Code]([http://i3.ytimg.com/vi/y3uyGajkOI4/hqdefault.jpg](https://i3.ytimg.com/vi/y3uyGajkOI4/maxresdefault.jpg))](https://www.youtube.com/watch?v=y3uyGajkOI4)
+[![Final video of fixing issues in your code in VS Code](http://i3.ytimg.com/vi/y3uyGajkOI4/hqdefault.jpg)](https://www.youtube.com/watch?v=y3uyGajkOI4)
 
 
 
