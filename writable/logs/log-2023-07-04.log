@@ -1,0 +1,1006 @@
+CRITICAL - 2023-07-04 04:38:11 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Models\CarModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Models\\CarModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CarModel')
+ 3 APPPATH\Controllers\CarsController.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CarModel')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 04:38:18 --> syntax error, unexpected end of file
+in APPPATH\Views\cars\index.php on line 35.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/index', [], true)
+ 3 APPPATH\Controllers\CarsController.php(19): view('cars/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 04:39:37 --> Attempt to read property "name" on array
+in APPPATH\Views\cars\index.php on line 26.
+ 1 APPPATH\Views\cars\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/index', [], true)
+ 5 APPPATH\Controllers\CarsController.php(19): view('cars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 04:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 04:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 04:59:37 --> Call to a member function move() on null
+in APPPATH\Controllers\CarsController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 05:00:49 --> Call to a member function move() on null
+in APPPATH\Controllers\CarsController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 05:01:16 --> Call to a member function getName() on null
+in APPPATH\Controllers\CarsController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 05:02:31 --> syntax error, unexpected variable "$filepicture"
+in APPPATH\Controllers\CarsController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CarsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarsController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CarsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 05:02:36 --> syntax error, unexpected variable "$filepicture"
+in APPPATH\Controllers\CarsController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CarsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarsController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CarsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 05:02:37 --> syntax error, unexpected variable "$filepicture"
+in APPPATH\Controllers\CarsController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CarsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarsController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CarsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 05:03:23 --> Call to a member function move() on null
+in APPPATH\Controllers\CarsController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 05:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 05:44:07 --> Undefined variable $totalSales3Days
+in APPPATH\Views\sales\dashboard.php on line 35.
+ 1 APPPATH\Views\sales\dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalSales3Days', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(43): view('sales/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 05:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 05:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 06:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 06:47:30 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(32): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 06:49:38 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(11): view('sales/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 06:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 07:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 08:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 09:47:01 --> syntax error, unexpected single-quoted string "title", expecting "]"
+in APPPATH\Controllers\UserPageController.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\UserPageController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserPageController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserPageController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\UserPageController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 09:47:12 --> Class "App\Controllers\CarModel" not found
+in APPPATH\Controllers\UserPageController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 10:23:28 --> Undefined variable $carModel
+in APPPATH\Controllers\UserPageController.php on line 12.
+ 1 APPPATH\Controllers\UserPageController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carModel', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\UserPageController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 10:24:31 --> Undefined variable $randomPictures
+in APPPATH\Views\user\home.php on line 9.
+ 1 APPPATH\Views\user\home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $randomPictures', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\home.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home', [...], true)
+ 5 APPPATH\Controllers\UserPageController.php(29): view('user/home', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 10:25:13 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\UserPageController.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\UserPageController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserPageController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserPageController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\UserPageController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 10:27:11 --> Undefined variable $randomPictures
+in APPPATH\Views\user\home.php on line 9.
+ 1 APPPATH\Views\user\home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $randomPictures', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\home.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home', [...], true)
+ 5 APPPATH\Controllers\UserPageController.php(30): view('user/home', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 10:27:22 --> Undefined variable $randomPictures
+in APPPATH\Views\user\home.php on line 9.
+ 1 APPPATH\Views\user\home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $randomPictures', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\home.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/home', [...], true)
+ 5 APPPATH\Controllers\UserPageController.php(30): view('user/home', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 10:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 10:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 11:33:23 --> Unclosed '{' on line 52 does not match ']'
+in APPPATH\Controllers\CarsController.php on line 66.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CarsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarsController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CarsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:33:29 --> Call to a member function move() on null
+in APPPATH\Controllers\CarsController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('13')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:33:43 --> Call to a member function move() on null
+in APPPATH\Controllers\CarsController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('13')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:34:37 --> Unclosed '{' on line 63 does not match ']'
+in APPPATH\Controllers\CarsController.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CarsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarsController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CarsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 11:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 11:36:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:36:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:36:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:37:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:37:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:38:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:38:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:39:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:40:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:40:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:41:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:43:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:43:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:43:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:43:45 --> Undefined variable $customer
+in APPPATH\Views\cars\edit.php on line 24.
+ 1 APPPATH\Views\cars\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:43:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:44:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:44:29 --> Undefined variable $customer
+in APPPATH\Views\cars\edit.php on line 24.
+ 1 APPPATH\Views\cars\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:44:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(59): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('car_img', 'asd21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 11:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 11:47:28 --> Invalid file: "/car.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/car.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/car', [], true)
+ 3 APPPATH\Controllers\CarsController.php(48): view('/car')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 11:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 11:49:56 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/create', [], true)
+ 6 APPPATH\Controllers\CarsController.php(48): view('cars/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:50:09 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/create', [], true)
+ 6 APPPATH\Controllers\CarsController.php(52): view('cars/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 11:50:21 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/create', [], true)
+ 6 APPPATH\Controllers\CarsController.php(52): view('cars/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 11:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 11:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 12:00:15 --> Undefined variable $car
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $car', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(43): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:00:25 --> Undefined array key "picture"
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(43): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:02:05 --> Undefined array key "picture"
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(43): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:02:12 --> Undefined array key "picture"
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:02:25 --> Undefined variable $customer
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:02:31 --> Undefined array key "picture"
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:02:36 --> Undefined array key "picture"
+in APPPATH\Views\user\vehicle.php on line 13.
+ 1 APPPATH\Views\user\vehicle.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:03:21 --> syntax error, unexpected token "as"
+in APPPATH\Views\user\vehicle.php on line 10.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 3 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:03:49 --> syntax error, unexpected end of file
+in APPPATH\Views\user\vehicle.php on line 53.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 3 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:09:10 --> syntax error, unexpected end of file
+in APPPATH\Views\user\vehicle.php on line 47.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 3 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:09:19 --> syntax error, unexpected end of file
+in APPPATH\Views\user\vehicle.php on line 48.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 3 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:09:39 --> syntax error, unexpected end of file
+in APPPATH\Views\user\vehicle.php on line 48.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 3 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:26:09 --> Undefined variable $card
+in APPPATH\Views\user\vehicle.php on line 33.
+ 1 APPPATH\Views\user\vehicle.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $card', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:32:44 --> syntax error, unexpected end of file
+in APPPATH\Views\user\vehicle.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 3 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 12:34:31 --> Undefined array key "desciption"
+in APPPATH\Views\user\vehicle.php on line 22.
+ 1 APPPATH\Views\user\vehicle.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "desciption"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\user\\vehicle.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/vehicle', [], true)
+ 5 APPPATH\Controllers\UserPageController.php(42): view('user/vehicle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UserPageController->vehicle()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPageController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 12:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 12:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 12:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 12:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 12:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 13:01:27 --> Undefined property: App\Controllers\SalesPersonController::$salesPersonModel
+in APPPATH\Controllers\SalesPersonController.php on line 84.
+ 1 APPPATH\Controllers\SalesPersonController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SalesPersonController::$salesPersonModel', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:02:45 --> Undefined property: App\Controllers\SalesPersonController::$salesPersonModel
+in APPPATH\Controllers\SalesPersonController.php on line 86.
+ 1 APPPATH\Controllers\SalesPersonController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SalesPersonController::$salesPersonModel', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:02:46 --> Undefined property: App\Controllers\SalesPersonController::$salesPersonModel
+in APPPATH\Controllers\SalesPersonController.php on line 86.
+ 1 APPPATH\Controllers\SalesPersonController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SalesPersonController::$salesPersonModel', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:02:46 --> Undefined property: App\Controllers\SalesPersonController::$salesPersonModel
+in APPPATH\Controllers\SalesPersonController.php on line 86.
+ 1 APPPATH\Controllers\SalesPersonController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SalesPersonController::$salesPersonModel', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:03:13 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php on line 836
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->like('name', null)
+ 2 APPPATH\Models\SalesPersonModel.php(15): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\SalesPersonController.php(93): App\Models\SalesPersonModel->search(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:03:15 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php on line 836
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->like('name', null)
+ 2 APPPATH\Models\SalesPersonModel.php(15): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\SalesPersonController.php(93): App\Models\SalesPersonModel->search(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:03:23 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php on line 836
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->like('name', null)
+ 2 APPPATH\Models\SalesPersonModel.php(15): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\SalesPersonController.php(93): App\Models\SalesPersonModel->search(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-04 13:03:27 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php on line 836
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->like('name', null)
+ 2 APPPATH\Models\SalesPersonModel.php(15): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\SalesPersonController.php(93): App\Models\SalesPersonModel->search(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->search('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-04 13:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

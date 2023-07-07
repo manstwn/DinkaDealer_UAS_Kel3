@@ -1,0 +1,1680 @@
+CRITICAL - 2023-07-03 07:02:12 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 6 APPPATH\Controllers\CustomerController.php(15): view('customer/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:03:20 --> Undefined variable $customers
+in APPPATH\Views\customer\index.php on line 18.
+ 1 APPPATH\Views\customer\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(19): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:03:21 --> Undefined variable $customers
+in APPPATH\Views\customer\index.php on line 18.
+ 1 APPPATH\Views\customer\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(19): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:03:22 --> Undefined variable $customers
+in APPPATH\Views\customer\index.php on line 18.
+ 1 APPPATH\Views\customer\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(19): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:03:23 --> Undefined variable $customers
+in APPPATH\Views\customer\index.php on line 18.
+ 1 APPPATH\Views\customer\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(19): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:03:23 --> Undefined variable $customers
+in APPPATH\Views\customer\index.php on line 18.
+ 1 APPPATH\Views\customer\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(19): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:03:47 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\CustomerController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CustomerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CustomerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CustomerController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CustomerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:10:08 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/create', [], true)
+ 6 APPPATH\Controllers\CustomerController.php(26): view('customer/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:10:54 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/create', [], true)
+ 6 APPPATH\Controllers\CustomerController.php(30): view('customer/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:10:58 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/create', [], true)
+ 6 APPPATH\Controllers\CustomerController.php(30): view('customer/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:11:18 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/create', [], true)
+ 6 APPPATH\Controllers\CustomerController.php(30): view('customer/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:15:28 --> Unmatched ']'
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:19:10 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/edit', [], true)
+ 6 APPPATH\Controllers\CustomerController.php(55): view('customer/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:19:43 --> Undefined variable $customer
+in APPPATH\Views\customer\edit.php on line 10.
+ 1 APPPATH\Views\customer\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/edit', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(61): view('customer/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:25:49 --> syntax error, unexpected token "/", expecting end of file
+in APPPATH\Config\Routes.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:46:05 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:46:39 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:20 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:20 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:21 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:21 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:21 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:34 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:47:35 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(20): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:51:25 --> Undefined array key "phone_number"
+in APPPATH\Views\customer\index.php on line 23.
+ 1 APPPATH\Views\customer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\customer\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('customer/index', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(19): view('customer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:53:51 --> Undefined variable $customers
+in APPPATH\Views\cars\index.php on line 19.
+ 1 APPPATH\Views\cars\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/index', [], true)
+ 5 APPPATH\Controllers\CarsController.php(19): view('cars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:54:05 --> Undefined array key "phone_number"
+in APPPATH\Views\cars\index.php on line 23.
+ 1 APPPATH\Views\cars\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone_number"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/index', [], true)
+ 5 APPPATH\Controllers\CarsController.php(19): view('cars/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 07:56:49 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/create', [], true)
+ 6 APPPATH\Controllers\CarsController.php(27): view('cars/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+ERROR - 2023-07-03 07:59:58 --> mysqli_sql_exception: Column 'price' cannot be null in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Code4_uas2\app\Controllers\CarsController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\CarsController->store()
+#9 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+#10 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Code4_uas2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-03 07:59:58 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (\'asd\', \'asd\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (\'asd\', \'asd\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (\'asd\', \'asd\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (:name:, :type:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarsController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+ERROR - 2023-07-03 08:00:05 --> mysqli_sql_exception: Column 'price' cannot be null in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Code4_uas2\app\Controllers\CarsController.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\CarsController->store()
+#9 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+#10 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Code4_uas2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-03 08:00:05 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (\'asd\', \'asd\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (\'asd\', \'asd\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (\'asd\', \'asd\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cars` (`name`, `type`, `price`) VALUES (:name:, :type:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarsController.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:04:10 --> Undefined variable $cars
+in APPPATH\Views\cars\edit.php on line 8.
+ 1 APPPATH\Views\cars\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cars', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(49): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:04:45 --> Undefined variable $cars
+in APPPATH\Views\cars\edit.php on line 12.
+ 1 APPPATH\Views\cars\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cars', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\cars\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 5 APPPATH\Controllers\CarsController.php(49): view('cars/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:04:52 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cars/edit', [], true)
+ 6 APPPATH\Controllers\CarsController.php(49): view('cars/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:05:53 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\CarsController.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\CarsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CarsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CarsController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\CarsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:05:59 --> Invalid file: "car/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('car/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('car/edit', [], true)
+ 3 APPPATH\Controllers\CarsController.php(54): view('car/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:06:02 --> Invalid file: "car/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('car/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('car/edit', [], true)
+ 3 APPPATH\Controllers\CarsController.php(54): view('car/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:06:17 --> Invalid file: "car/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('car/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('car/edit', [], true)
+ 3 APPPATH\Controllers\CarsController.php(52): view('car/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CarsController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarsController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:28:23 --> Invalid file: "sales_agents/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sales_agents/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales_agents/index', [], true)
+ 3 APPPATH\Controllers\SalesAgentController.php(21): view('sales_agents/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesAgentController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesAgentController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:28:47 --> Undefined array key "address"
+in APPPATH\Views\sales_agents\index.php on line 25.
+ 1 APPPATH\Views\sales_agents\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales_agents\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales_agents\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales_agents/index', [], true)
+ 5 APPPATH\Controllers\SalesAgentController.php(21): view('sales_agents/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesAgentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesAgentController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:29:30 --> Undefined variable $agents
+in APPPATH\Views\sales_agents\index.php on line 18.
+ 1 APPPATH\Views\sales_agents\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agents', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales_agents\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales_agents\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales_agents/index', [], true)
+ 5 APPPATH\Controllers\SalesAgentController.php(21): view('sales_agents/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesAgentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesAgentController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:35:38 --> Class "App\Models\SalesAgentModel" not found
+in APPPATH\Controllers\SalesAgentController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesAgentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesAgentController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:37:17 --> Class "App\Models\SalesPersonModel" not found
+in APPPATH\Controllers\SalesPersonController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:37:40 --> Invalid file: "salesperson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salesperson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('salesperson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('salesperson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:37:56 --> Invalid file: "salesperson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salesperson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('salesperson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('salesperson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:37:58 --> Invalid file: "salesperson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salesperson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('salesperson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('salesperson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:38:04 --> Invalid file: "salesperson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salesperson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('salesperson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('salesperson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:38:04 --> Invalid file: "salesperson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salesperson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('salesperson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('salesperson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:38:04 --> Invalid file: "salesperson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salesperson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('salesperson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('salesperson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:38:10 --> Invalid file: "sales-erson/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sales-erson/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-erson/index', [], true)
+ 3 APPPATH\Controllers\SalesPersonController.php(19): view('sales-erson/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:38:55 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/create', [], true)
+ 6 APPPATH\Controllers\SalesPersonController.php(24): view('sales-person/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:39:15 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/create', [], true)
+ 6 APPPATH\Controllers\SalesPersonController.php(28): view('sales-person/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:39:16 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/create', [], true)
+ 6 APPPATH\Controllers\SalesPersonController.php(28): view('sales-person/create')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:40:09 --> Class "App\Controllers\SalesAgentModel" not found
+in APPPATH\Controllers\SalesPersonController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:42:32 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SalesPersonController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SalesPersonController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SalesPersonController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\SalesPersonController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:42:35 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SalesPersonController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SalesPersonController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SalesPersonController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\SalesPersonController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:42:37 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SalesPersonController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesPersonController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SalesPersonController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SalesPersonController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\SalesPersonController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:04 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:39 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:40 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:40 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:40 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:41 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:41 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:42 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:42 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:43 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:44 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 APPPATH\Views\sales-person\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:43:53 --> Undefined constant "person"
+in APPPATH\Views\sales-person\edit.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 4 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:44:04 --> Undefined variable $customer
+in APPPATH\Views\sales-person\edit.php on line 12.
+ 1 APPPATH\Views\sales-person\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:44:18 --> Undefined array key "address"
+in APPPATH\Views\sales-person\edit.php on line 33.
+ 1 APPPATH\Views\sales-person\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:44:19 --> Undefined array key "address"
+in APPPATH\Views\sales-person\edit.php on line 33.
+ 1 APPPATH\Views\sales-person\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales-person\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales-person/edit', [], true)
+ 5 APPPATH\Controllers\SalesPersonController.php(55): view('sales-person/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:45:11 --> Class "App\Controllers\SalesAgentModel" not found
+in APPPATH\Controllers\SalesPersonController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 08:45:25 --> Class "App\Controllers\SalesAgentModel" not found
+in APPPATH\Controllers\SalesPersonController.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesPersonController->delete('3')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesPersonController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 09:09:03 --> Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\TransactionController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+ERROR - 2023-07-03 09:09:36 --> mysqli_sql_exception: Table 'ci4.transactions' doesn't exist in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Code4_uas2\app\Controllers\TransactionController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+#8 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#9 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Code4_uas2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 09:09:36 --> Table 'ci4.transactions' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transactions`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transactions`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transactions`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transactions`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TransactionController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 09:12:07 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/index', [], true)
+ 6 APPPATH\Controllers\TransactionController.php(30): view('transaction/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 09:12:08 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/index', [], true)
+ 6 APPPATH\Controllers\TransactionController.php(30): view('transaction/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 09:12:44 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\TransactionController.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\TransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\TransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:13:32 --> Undefined array key "customer_name"
+in APPPATH\Views\transaction\index.php on line 30.
+ 1 APPPATH\Views\transaction\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_name"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\transaction\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\TransactionController.php(36): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 09:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:13:47 --> Undefined array key "car_name"
+in APPPATH\Views\transaction\index.php on line 31.
+ 1 APPPATH\Views\transaction\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "car_name"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\transaction\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\TransactionController.php(36): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 09:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:18:46 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/create', [], true)
+ 6 APPPATH\Controllers\TransactionController.php(46): view('transaction/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 09:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:24:14 --> Invalid file: "transaction/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 09:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 10:03:13 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Code4_uas2\app\Controllers\TransactionController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\TransactionController->store()
+#9 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#10 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Code4_uas2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Code4_uas2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-03 10:03:13 --> Column 'customer_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `transactions` (`customer_id`, `car_id`, `salesperson_id`, `price`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2500000000\', \'2023-07-03 10:03:13\', \'2023-07-03 10:03:13\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`customer_id`, `car_id`, `salesperson_id`, `price`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2500000000\', \'2023-07-03 10:03:13\', \'2023-07-03 10:03:13\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`customer_id`, `car_id`, `salesperson_id`, `price`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2500000000\', \'2023-07-03 10:03:13\', \'2023-07-03 10:03:13\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`customer_id`, `car_id`, `salesperson_id`, `price`, `created_at`, `updated_at`) VALUES (:customer_id:, :car_id:, :salesperson_id:, :price:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\TransactionController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:11:01 --> Invalid file: "transaction/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:18:28 --> syntax error, unexpected token "public", expecting ";" or "{"
+in APPPATH\Controllers\TransactionController.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\TransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\TransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:22:02 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Models\TransactionModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Models\\TransactionModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\TransactionModel')
+ 3 APPPATH\Controllers\TransactionController.php(27): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\TransactionModel')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:41:10 --> Invalid file: "transaction/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('25')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:41:19 --> Invalid file: "transaction/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('25')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:41:45 --> Invalid file: "transaction/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('24')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:51:30 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/sales_dashboard', [], true)
+ 6 APPPATH\Controllers\SalesDashboardController.php(57): view('sales/sales_dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalesDashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesDashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 10:51:51 --> syntax error, unexpected single-quoted string "salesData", expecting "]"
+in APPPATH\Controllers\SalesDashboardController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\SalesDashboardController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SalesDashboardController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SalesDashboardController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\SalesDashboardController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 10:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:01:38 --> Invalid file: "sales/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sales/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(24): view('sales/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:01:57 --> Undefined variable $currentMonthSales
+in APPPATH\Views\sales\dashboard.php on line 18.
+ 1 APPPATH\Views\sales\dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentMonthSales', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(24): view('sales/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:02:23 --> Invalid file: "transaction/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/edit.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('27')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:03:46 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(24): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:04:19 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(26): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:04:20 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(26): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:04:44 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(27): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:04:45 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(27): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:04:54 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\DashboardController.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\DashboardController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DashboardController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DashboardController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\DashboardController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:04:59 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\DashboardController.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\DashboardController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DashboardController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DashboardController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\DashboardController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:09:03 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 6 APPPATH\Controllers\TransactionController.php(85): view('transaction/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('24')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:12:22 --> syntax error, unexpected token "<", expecting variable or "{" or "$"
+in APPPATH\Views\transaction\edit.php on line 28.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('transaction/edit', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(86): view('transaction/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->edit('24')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:25:03 --> Unmatched '}'
+in APPPATH\Controllers\TransactionController.php on line 160.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Code4_uas2\\app\\Controllers\\TransactionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TransactionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TransactionController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\TransactionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:25:15 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\TransactionController.php(146): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:25:22 --> Undefined variable $graphData
+in APPPATH\Views\sales\dashboard.php on line 23.
+ 1 APPPATH\Views\sales\dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $graphData', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 5 APPPATH\Controllers\TransactionController.php(146): view('sales/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:26:42 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\TransactionController.php(146): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index2()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:26:49 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\TransactionController.php(146): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\TransactionController->index2()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:33:03 --> Call to undefined method App\Models\TransactionModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\DashboardController.php(15): CodeIgniter\Model->__call('sum', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:33:43 --> Call to undefined method App\Models\TransactionModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\DashboardController.php(15): CodeIgniter\Model->__call('sum', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:34:34 --> Call to undefined method App\Models\TransactionModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\DashboardController.php(15): CodeIgniter\Model->__call('sum', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:35:25 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(54): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+CRITICAL - 2023-07-03 11:35:32 --> Undefined variable $transactions
+in APPPATH\Views\sales\dashboard.php on line 22.
+ 1 APPPATH\Views\sales\dashboard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transactions', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(54): view('sales/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:44:48 --> Undefined variable $title
+in APPPATH\Views\Layout\template.php on line 15.
+ 1 APPPATH\Views\Layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\Layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 6 APPPATH\Controllers\DashboardController.php(42): view('sales/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 11:49:51 --> Undefined array key "labels"
+in APPPATH\Views\sales\dashboard.php on line 27.
+ 1 APPPATH\Views\sales\dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "labels"', 'C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Code4_uas2\\app\\Views\\sales\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('sales/dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(43): view('sales/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Code4_uas2\\public\\index.php')
+INFO - 2023-07-03 11:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
