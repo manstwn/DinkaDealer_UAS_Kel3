@@ -80,6 +80,12 @@ composer create-project codeigniter4/appstarter jual-mobil -vvv
 Jika belum mempunyai composer anda bisa download di sini [Get Composer](https://getcomposer.org/download/) </p><br>
 
 ### Langkah 2: Create ERD
+ini adalah contoh ERD yang kami buat menggunkan aplikasi `whimsical`<p>
+[!gambarERD](asset/ERD.png)
+
+1. Tabel cars one to many ke table transactions car_id
+2. Table customer one to many ke tablet transaction customer_id
+3. Tabel salesperson one to many ke table transaction salesperson_id
 
 <br>
 
