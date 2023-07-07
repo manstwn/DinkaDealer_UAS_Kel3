@@ -5,7 +5,6 @@
             <th>Nama</th>
             <th>NIM</th>
             <th>Kelas</th>
-            <th>Contribution</th>
         </tr>
         <tr>
             <td>Ahmad Syukron</td>
